@@ -1,0 +1,175 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+@keyframes slideDown {
+    0%{
+        transform: translateY(-30px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+/* utilities */
+body{
+    margin: 0;
+    font-family: 'Luxurious Roman', cursive;
+}
+.button{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    background-color: #E02C6D;
+    border-radius: 41px;
+    align-items: center;
+}
+
+
+/* header section */
+header{
+    height: 120px;
+    display: flex;
+    justify-content: center;
+}
+header .nav-container{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.brand-name{
+    font-size: 25px;
+    font-weight: 700;
+}
+.brand-name #brand{
+    color: #E02C6D;
+}
+.menu-bar{
+    display: flex;
+    padding: 0 15px;
+}
+.menu-bar li{
+    font-weight: 500;
+    list-style: none;
+    padding: 0 10px;
+}
+header div a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+
+/* main section start */
+
+/* top section style */
+
+.top-container{
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4%;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+.half-width{
+    width: 50%;
+    /* background-color: blueviolet; */
+    padding-left: 5%;
+}
+.half-width img{
+    width: 80%;
+    padding-left: 100px;
+}
+.top-h1{
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+#for-animation:hover{
+    color: #E02C6D;
+    animation: slideDown 2s ease .0s 1;
+}
+.top-paragraph{
+    font-size: 18px;
+    margin-bottom: 35px;
+}
+
+
+/* companies style
+.companies{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 0;
+}
+.company-name{
+    padding-right: 5px;
+} */
+
+
+/* products styles */
+.products-container{
+    background-color: white;
+    border-radius: 10px;
+    width: 85%;
+    padding: 30px;
+    margin-top: 20px;
+}
+.products-section-title{
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    font-size: 24px;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    justify-content: space-between;
+}
+.products .course-banner img{
+    width: 224px;
+    height: 104px;
+}
+.course-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.product{
+    width: 250px;
+    background-color: rgb(247, 243, 242);
+    box-shadow: 2px 2px 10px rgb(128, 128, 128);
+    border-radius: 10px;
+    padding: 15px 3px 15px 15px;
+}
+.product:hover{
+    background-image: linear-gradient(rgba(128, 128, 128, 0.274), rgb(247, 243, 242));
+    cursor: pointer;
+}
+.course-title a{
+    text-decoration: none;
+}
+.course-instructor{
+    color: rgb(59, 166, 233);
+}
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.fill{
+    color: yellow;
+}
+.fa-star.empty{
+    color: grey;
+    opacity: .50;
+}
+.duration{
+    background-color: rgb(250, 233, 235);
+    border-radius: 25%;
+    color: rgb(255, 136, 89);
+    padding: 5px;
+    margin-right: 25px;
+}
