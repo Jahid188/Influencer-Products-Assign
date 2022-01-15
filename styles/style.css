@@ -35,6 +35,7 @@ header .nav-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-left: 4%;
 }
 .brand-name{
     font-size: 25px;
@@ -69,13 +70,12 @@ header div a{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-left: 7.5%;
+    margin-left: 10%;
     margin-top: 30px;
     margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
-    /* background-color: blueviolet; */
 }
 .half-width img{
     width: 80%;
@@ -96,22 +96,22 @@ header div a{
 }
 
 
-/* companies style
+/* companies style */
+.companies-container{
+    width: 85%;
+}
 .companies{
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-    margin-top: 100px;
+    margin-left: 17%;
     margin-bottom: 100px;
-    margin-right: 0;
 }
-.company-name{
-    padding-right: 5px;
-} */
 
 
 /* products styles */
-section{
+.products-container{
     width: 85%;
     margin-left: 7.5%;
     display: flex;
@@ -155,9 +155,31 @@ section{
     width: 75px;
     height: 24px;
     left: 1100px;
-    top: 2500px;
+    top: 2650px;
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
     color: rgba(224, 44, 109, 0.87);
+}
+
+/* optional part styles */
+.optional{
+    width: 85%;
+
+}
+.optional-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 15%;
+    margin-top: 170px;
+    margin-bottom: 100px;
+}
+.optional-info{
+    padding-left: 25px;
+    padding-bottom: 25px;
+}
+.optional-info h3{
+    font-size: 28px;
 }
