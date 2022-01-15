@@ -129,6 +129,10 @@ header div a{
     box-shadow: 5px 5px 20px rgba(128, 128, 128, 0.329);
     padding: 15px;
 }
+.single-product:hover{
+    cursor: pointer;
+    background-color: rgba(224, 44, 110, 0.062);
+}
 .single-product .product-info p{
     margin-top: 0;
 }
@@ -172,7 +176,7 @@ header div a{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-left: 15%;
+    margin-left: 18%;
     margin-top: 170px;
     margin-bottom: 100px;
 }
@@ -182,4 +186,35 @@ header div a{
 }
 .optional-info h3{
     font-size: 28px;
+    font-weight: 900;
+}
+
+
+/* footer style start */
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(10, 8, 38);
+    padding-bottom: 30px;
+}
+.footer-h2{
+    padding-top: 30px;
+    text-align: center;
+    color: white;
+    font-size: 28px;
+}
+.footer-paragraph{
+    text-align: center;
+    color: white;
+    font-size: 14px bold;
+}
+.footer-icon{
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+}
+.footer-icon i{
+    background-color: #22213C;
+    border-radius: 50%;
+    padding: 10px 10px;
 }
