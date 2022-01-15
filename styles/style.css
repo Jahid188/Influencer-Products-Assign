@@ -165,6 +165,8 @@ header div a{
     font-size: 18px;
     color: rgba(224, 44, 109, 0.87);
 }
+/* main section start */
+
 
 /* optional part styles */
 .optional{
@@ -217,4 +219,81 @@ footer{
     background-color: #22213C;
     border-radius: 50%;
     padding: 10px 10px;
+}
+
+
+
+
+/* responsive or media queries */
+
+/* mobile device */
+@media only screen and (max-width: 668px) {
+    body{
+        width: 100%;
+    }
+    .nav-container{
+        margin-top: 20px;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+    .top-container{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .top-container #top-container-img{
+        margin-right: 60%;
+    }
+    .half-width img{
+        width: 250px;
+
+    }
+    .companies-container .companies{
+        flex-direction: column;
+    }
+    .companies .company-brand{
+        padding-bottom: 15px;
+    }
+    .products{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .optional-container{
+        flex-direction: column;
+    }
+}
+
+
+
+/* tablet device */
+@media only screen and (min-width: 668px) and (max-width:990px) {
+    body{
+        width: 100%;
+    }
+    .nav-container{
+        margin-top: 20px;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+    .top-container{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .top-container #top-container-img{
+        margin-right: 33%;
+    }
+    .half-width img{
+        width: 300px;
+
+    }
+    .companies-container .companies{
+        flex-direction: column;
+    }
+    .companies .company-brand{
+        padding-bottom: 25px;
+    }
+    .products{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .optional-container{
+        flex-direction: column;
+    }
 }
